@@ -9,5 +9,5 @@ int main()
 	average=sum/2;
 	cout<<" Sum = "<<sum<<endl;
 	cout<<" Everage = "<<average<<endl;
-	return 0;
+	return 0 ;
 }
