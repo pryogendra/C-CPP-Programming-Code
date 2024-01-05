@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
 	int gd=DETECT,gm;
-	initgraph(&gd,&gm,"C:\\tc\\bgi");
 	int x,y,x_mid,y_mid,radius,dp;
 	cout<<"\n*************** MID POINT Circle Drawing Algorithm ***************************\n\n";
 	cout<<"\nEnter the coordinates : ";
 	cin>>x_mid>>y_mid;
 	cout<<"\nNow enter the radius : ";
 	cin>>radius;
+	initgraph(&gd,&gm,"C:\\tc\\bgi");
 	x=0;
 	y=radius;
 	dp=1-radius;
